@@ -1,0 +1,23 @@
+{
+  "files": {
+    "static/css/1.chunk.css": "/test-digital/wp-content/themes/digital.prosv.ru/static/css/1.chunk.css",
+    "static/js/1.chunk.js": "/test-digital/wp-content/themes/digital.prosv.ru/static/js/1.chunk.js",
+    "static/css/1.chunk.css.map": "/test-digital/wp-content/themes/digital.prosv.ru/static/css/1.chunk.css.map",
+    "static/js/1.chunk.js.map": "/test-digital/wp-content/themes/digital.prosv.ru/static/js/1.chunk.js.map",
+    "main.css": "/test-digital/wp-content/themes/digital.prosv.ru/static/css/main.chunk.css",
+    "main.js": "/test-digital/wp-content/themes/digital.prosv.ru/static/js/main.chunk.js",
+    "main.css.map": "/test-digital/wp-content/themes/digital.prosv.ru/static/css/main.chunk.css.map",
+    "main.js.map": "/test-digital/wp-content/themes/digital.prosv.ru/static/js/main.chunk.js.map",
+    "runtime-main.js": "/test-digital/wp-content/themes/digital.prosv.ru/static/js/bundle.js",
+    "runtime-main.js.map": "/test-digital/wp-content/themes/digital.prosv.ru/static/js/bundle.js.map",
+    "index.php": "/test-digital/wp-content/themes/digital.prosv.ru/index.php",
+    "static/media/style.css": "/test-digital/wp-content/themes/digital.prosv.ru/static/media/logo.a131d11d.svg"
+  },
+  "entrypoints": [
+    "static/js/bundle.js",
+    "static/css/1.chunk.css",
+    "static/js/1.chunk.js",
+    "static/css/main.chunk.css",
+    "static/js/main.chunk.js"
+  ]
+}

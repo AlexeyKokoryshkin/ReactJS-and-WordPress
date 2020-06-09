@@ -1,0 +1,21 @@
+# dependencies
+/digital.prosv.ru/react-src/node_modules/
+/digital.prosv.ru/react-src/.pnp
+/digital.prosv.ru/react-src/.pnp.js
+
+# testing
+/digital.prosv.ru/react-src/coverage
+
+# production
+/digital.prosv.ru/react-src/build
+
+# misc
+/digital.prosv.ru/react-src/.DS_Store
+/digital.prosv.ru/react-src/.env.local
+/digital.prosv.ru/react-src/.env.development.local
+/digital.prosv.ru/react-src/.env.test.local
+/digital.prosv.ru/react-src/.env.production.local
+
+/digital.prosv.ru/react-src/npm-debug.log*
+/digital.prosv.ru/react-src/yarn-debug.log*
+/digital.prosv.ru/react-src/yarn-error.log*
