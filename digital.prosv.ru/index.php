@@ -84,7 +84,7 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/56831812" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
-<link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/1.chunk.css?9e09d10120cd179a7cf1" rel="stylesheet"><link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/main.chunk.css?9e09d10120cd179a7cf1" rel="stylesheet"></head>
+<link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/0.chunk.css?a3965fb3b9c18e81e5e3" rel="stylesheet"><link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/main.chunk.css?a3965fb3b9c18e81e5e3" rel="stylesheet"></head>
     <body>
     <noscript>
         You need to enable JavaScript to run this app.
@@ -94,5 +94,5 @@
         To begin the development, run `npm run wpstart` or `yarn wpstart`.
         To create a production bundle, use `npm run wpbuild` or `yarn wpbuild`.
     -->
-    <script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/bundle.js?9e09d10120cd179a7cf1"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/1.chunk.js?9e09d10120cd179a7cf1"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/main.chunk.js?9e09d10120cd179a7cf1"></script></body>
+    <script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/bundle.js?a3965fb3b9c18e81e5e3"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/0.chunk.js?a3965fb3b9c18e81e5e3"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/main.chunk.js?a3965fb3b9c18e81e5e3"></script></body>
 </html>
