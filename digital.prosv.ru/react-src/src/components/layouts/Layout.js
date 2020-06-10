@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import Menu from '../components/Menu';
-import MenuItem from '../components/MenuItem';
+import Menu from '../componentsOfMenu/Menu';
+import MenuItem from '../componentsOfMenu/MenuItem';
 
 class Layout extends Component {
     constructor(props) {
