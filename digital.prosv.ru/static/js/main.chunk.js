@@ -252,7 +252,7 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 17
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "row",
+      className: "rows",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -331,7 +331,7 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 33
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "<?=WP_TEMPLATE_URL; ?>img/googleplay_icon.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/googleplay_icon.png",
       alt: "",
       __self: this,
       __source: {
@@ -356,7 +356,7 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 33
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "<?=WP_TEMPLATE_URL; ?>img/appstore_icon.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/appstore_icon.png",
       alt: "",
       __self: this,
       __source: {
