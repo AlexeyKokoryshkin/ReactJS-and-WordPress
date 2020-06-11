@@ -43,7 +43,7 @@ class Layout extends Component {
                     <MenuItem href="/test-digital/toLibrarian" active={ this.isActive("/toLibrarian") }>Библиотекарю</MenuItem>
                     <MenuItem href="/test-digital/toDistributor" active={ this.isActive("/toDistributor") }>Дистрибьютору</MenuItem>
                     <MenuItem href="/test-digital/faq" active={ this.isActive("/faq") }>Частые вопросы</MenuItem>
-                    <MenuItem href="/test-digital/downloadApp" active={ this.isActive("/downloadApp") }>Скачать приложение</MenuItem>         
+                   {/*  <MenuItem href="/test-digital/downloadApp" active={ this.isActive("/downloadApp") }>Скачать приложение</MenuItem>    */}      
                 </Menu>
                 </header>
 

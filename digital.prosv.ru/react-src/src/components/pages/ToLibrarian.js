@@ -19,7 +19,13 @@ class ToLibrarian extends Component {
         })
       }
       render() {
-        if (!this.state.post) return <div>Загрузка...</div>
+        if (!this.state.post) return (
+          <div class="d-flex justify-content-center">
+              <div class="spinner-border text-primary" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+          </div>
+        ) 
         return (
           <>
              <div className="container">

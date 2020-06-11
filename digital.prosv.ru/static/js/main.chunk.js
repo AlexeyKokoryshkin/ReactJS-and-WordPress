@@ -15,13 +15,26 @@ var _jsxFileName = "/var/www/html/test-digital/wp-content/themes/digital.prosv.r
 
 
 class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  constructor(...args) {
+    super(...args);
+    this.state = {
+      showModal: false
+    };
+
+    this.handleModal = () => {
+      this.setState({
+        showModal: !this.state.showModal
+      });
+    };
+  }
+
   render() {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
       className: "navbar navbar-expand-lg navbar-light bg-light",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 6,
+        lineNumber: 14,
         columnNumber: 13
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -29,7 +42,7 @@ class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 7,
+        lineNumber: 15,
         columnNumber: 17
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -37,23 +50,138 @@ class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8,
+        lineNumber: 16,
         columnNumber: 21
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "navbar-nav",
+      className: "nav nav-tabs",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 9,
+        lineNumber: 17,
         columnNumber: 25
       }
-    }, this.props.children))));
+    }, this.props.children), this.state.showModal && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(MyModal, {
+      handleModal: this.handleModal,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 51
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      onClick: this.handleModal,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 25
+      }
+    }, " \u0421\u043A\u0430\u0447\u0430\u0442\u044C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435 "))));
   }
 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Menu);
+
+class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "dropdown",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56,
+        columnNumber: 13
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "submenu-item-title",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57,
+        columnNumber: 17
+      }
+    }, "Windows"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "dropdown-item",
+      href: "http://catalog.prosv.ru/apps/win/last/",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 17
+      }
+    }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434  Windows 7 (\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043B\u044C\u043D\u0430\u044F)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "dropdown-item",
+      href: "https://www.microsoft.com/ru-ru/store/p/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%D0%B8-%D0%9F%D1%80%D0%BE%D1%81%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5/9nblggh51nx6/",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 17
+      }
+    }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434 Windows 8.1 \u0438 \u0432\u044B\u0448\u0435"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "dropdown-divider",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 60,
+        columnNumber: 17
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "submenu-item-title",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 61,
+        columnNumber: 17
+      }
+    }, "Android-\u043F\u043B\u0430\u043D\u0448\u0435\u0442\u044B \u0438 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "dropdown-item",
+      href: "https://play.google.com/store/apps/details?id=com.prosv.ebook",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 17
+      }
+    }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434 Android 4.4 \u0438 \u0432\u044B\u0448\u0435"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "dropdown-divider",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63,
+        columnNumber: 17
+      }
+    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      className: "submenu-item-title",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64,
+        columnNumber: 17
+      }
+    }, "IPad"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      className: "dropdown-item",
+      href: "https://apps.apple.com/ru/app/%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D1%8F/id1435470880/",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65,
+        columnNumber: 17
+      }
+    }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434 iOS 9 \u0438 \u0432\u044B\u0448\u0435"));
+  }
+
+}
 
 /***/ }),
 
@@ -75,13 +203,13 @@ var _jsxFileName = "/var/www/html/test-digital/wp-content/themes/digital.prosv.r
 
 class MenuItem extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
       className: this.props.active ? 'nav-item active' : 'nav-item',
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 7,
-        columnNumber: 11
+        lineNumber: 8,
+        columnNumber: 13
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       className: "nav-link",
@@ -89,10 +217,10 @@ class MenuItem extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 8,
-        columnNumber: 13
+        lineNumber: 9,
+        columnNumber: 15
       }
-    }, this.props.children));
+    }, this.props.children)));
   }
 
 }
@@ -385,16 +513,7 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         lineNumber: 45,
         columnNumber: 21
       }
-    }, "\u0427\u0430\u0441\u0442\u044B\u0435 \u0432\u043E\u043F\u0440\u043E\u0441\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_componentsOfMenu_MenuItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      href: "/test-digital/downloadApp",
-      active: this.isActive("/downloadApp"),
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46,
-        columnNumber: 21
-      }
-    }, "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
+    }, "\u0427\u0430\u0441\u0442\u044B\u0435 \u0432\u043E\u043F\u0440\u043E\u0441\u044B"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1079,97 +1198,6 @@ class AboutUs extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
 /***/ }),
 
-/***/ "./src/components/pages/DownloadApp.js":
-/*!*********************************************!*\
-  !*** ./src/components/pages/DownloadApp.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/es/index.js");
-var _jsxFileName = "/var/www/html/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/pages/DownloadApp.js";
-
-
-
-class DownloadApp extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
-  render() {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      className: "container",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 8,
-        columnNumber: 13
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
-      "aria-label": "breadcrumb",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9,
-        columnNumber: 17
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
-      className: "breadcrumb",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 10,
-        columnNumber: 21
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "breadcrumb-item",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 25
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-      to: "/test-digital",
-      className: "b-navbar__home",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11,
-        columnNumber: 57
-      }
-    }, this.props.brand || 'Главная')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-      className: "breadcrumb-item active",
-      "aria-current": "page",
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12,
-        columnNumber: 25
-      }
-    }, "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 16,
-        columnNumber: 17
-      }
-    }, "\u0421\u043A\u0430\u0447\u0430\u0442\u044C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 17,
-        columnNumber: 17
-      }
-    }, "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u0441\u043A\u0430\u0447\u0438\u0432\u0430\u043D\u0438\u044F \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u044F"));
-  }
-
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (DownloadApp);
-
-/***/ }),
-
 /***/ "./src/components/pages/Faq.js":
 /*!*************************************!*\
   !*** ./src/components/pages/Faq.js ***!
@@ -1205,19 +1233,37 @@ class Faq extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     if (!this.state.post) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "d-flex justify-content-center",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 38
+        lineNumber: 23,
+        columnNumber: 11
       }
-    }, "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430...");
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "spinner-border text-primary",
+      role: "status",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 15
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      class: "sr-only",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 17
+      }
+    }, "Loading...")));
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "container",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 31,
         columnNumber: 14
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
@@ -1225,7 +1271,7 @@ class Faq extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 32,
         columnNumber: 18
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
@@ -1233,7 +1279,7 @@ class Faq extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 33,
         columnNumber: 21
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -1241,7 +1287,7 @@ class Faq extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 25
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -1250,7 +1296,7 @@ class Faq extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 57
       }
     }, this.props.brand || 'Главная')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -1259,7 +1305,7 @@ class Faq extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 35,
         columnNumber: 25
       }
     }, "\u0427\u0430\u0441\u0442\u044B\u0435 \u0432\u043E\u043F\u0440\u043E\u0441\u044B")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1269,7 +1315,7 @@ class Faq extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 40,
         columnNumber: 13
       }
     }));
@@ -1819,19 +1865,37 @@ class ToDistributor extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     if (!this.state.post) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "d-flex justify-content-center",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 38
+        lineNumber: 23,
+        columnNumber: 11
       }
-    }, "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430...");
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "spinner-border text-primary",
+      role: "status",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 15
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      class: "sr-only",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 17
+      }
+    }, "Loading...")));
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "container",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 31,
         columnNumber: 14
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
@@ -1839,7 +1903,7 @@ class ToDistributor extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 32,
         columnNumber: 18
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
@@ -1847,7 +1911,7 @@ class ToDistributor extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 33,
         columnNumber: 21
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -1855,7 +1919,7 @@ class ToDistributor extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 25
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -1864,7 +1928,7 @@ class ToDistributor extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 57
       }
     }, this.props.brand || 'Главная')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -1873,7 +1937,7 @@ class ToDistributor extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 35,
         columnNumber: 25
       }
     }, "\u0414\u0438\u0441\u0442\u0440\u0438\u0431\u044C\u044E\u0442\u043E\u0440\u0443")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1883,7 +1947,7 @@ class ToDistributor extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 40,
         columnNumber: 13
       }
     }));
@@ -1930,19 +1994,37 @@ class ToLibrarian extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     if (!this.state.post) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "d-flex justify-content-center",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 38
+        lineNumber: 23,
+        columnNumber: 11
       }
-    }, "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430...");
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "spinner-border text-primary",
+      role: "status",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 15
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      class: "sr-only",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 17
+      }
+    }, "Loading...")));
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "container",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 31,
         columnNumber: 14
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
@@ -1950,7 +2032,7 @@ class ToLibrarian extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 32,
         columnNumber: 18
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
@@ -1958,7 +2040,7 @@ class ToLibrarian extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 33,
         columnNumber: 21
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -1966,7 +2048,7 @@ class ToLibrarian extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 25
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -1975,7 +2057,7 @@ class ToLibrarian extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 57
       }
     }, this.props.brand || 'Главная')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -1984,7 +2066,7 @@ class ToLibrarian extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 35,
         columnNumber: 25
       }
     }, "\u0411\u0438\u0431\u043B\u0438\u043E\u0442\u0435\u043A\u0430\u0440\u044E")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1994,7 +2076,7 @@ class ToLibrarian extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 40,
         columnNumber: 13
       }
     }));
@@ -2041,19 +2123,37 @@ class ToUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
 
   render() {
     if (!this.state.post) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "d-flex justify-content-center",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 38
+        lineNumber: 23,
+        columnNumber: 11
       }
-    }, "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430...");
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+      class: "spinner-border text-primary",
+      role: "status",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 15
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      class: "sr-only",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 17
+      }
+    }, "Loading...")));
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: "container",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 31,
         columnNumber: 14
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("nav", {
@@ -2061,7 +2161,7 @@ class ToUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 32,
         columnNumber: 16
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ol", {
@@ -2069,7 +2169,7 @@ class ToUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
+        lineNumber: 33,
         columnNumber: 19
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -2077,7 +2177,7 @@ class ToUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 23
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -2086,7 +2186,7 @@ class ToUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 34,
         columnNumber: 55
       }
     }, this.props.brand || 'Главная')), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -2095,7 +2195,7 @@ class ToUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 35,
         columnNumber: 23
       }
     }, "\u041F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u0435\u043B\u044E")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -2105,7 +2205,7 @@ class ToUser extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
+        lineNumber: 40,
         columnNumber: 13
       }
     }));
@@ -2154,9 +2254,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_pages_ToLibrarian__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/pages/ToLibrarian */ "./src/components/pages/ToLibrarian.js");
 /* harmony import */ var _components_pages_ToDistributor__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/pages/ToDistributor */ "./src/components/pages/ToDistributor.js");
 /* harmony import */ var _components_pages_Faq__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/pages/Faq */ "./src/components/pages/Faq.js");
-/* harmony import */ var _components_pages_DownloadApp__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pages/DownloadApp */ "./src/components/pages/DownloadApp.js");
-/* harmony import */ var _components_pages_PageNotFound__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/pages/PageNotFound */ "./src/components/pages/PageNotFound.js");
-/* harmony import */ var _components_componentsOfNews_PostPage__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/componentsOfNews/PostPage */ "./src/components/componentsOfNews/PostPage.js");
+/* harmony import */ var _components_pages_PageNotFound__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/pages/PageNotFound */ "./src/components/pages/PageNotFound.js");
+/* harmony import */ var _components_componentsOfNews_PostPage__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/componentsOfNews/PostPage */ "./src/components/componentsOfNews/PostPage.js");
 var _jsxFileName = "/var/www/html/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/index.js";
 
 
@@ -2170,7 +2269,7 @@ var _jsxFileName = "/var/www/html/test-digital/wp-content/themes/digital.prosv.r
 
 
 
-
+ //import DownloadApp from './components/pages/DownloadApp';
 
 
 
@@ -2245,17 +2344,8 @@ react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/react__WEB
     columnNumber: 9
   }
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__["Route"], {
-  path: "/test-digital/downloadApp",
-  component: _components_pages_DownloadApp__WEBPACK_IMPORTED_MODULE_13__["default"],
-  __self: undefined,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 31,
-    columnNumber: 9
-  }
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__["Route"], {
   path: "/test-digital/:id",
-  component: _components_componentsOfNews_PostPage__WEBPACK_IMPORTED_MODULE_15__["default"],
+  component: _components_componentsOfNews_PostPage__WEBPACK_IMPORTED_MODULE_14__["default"],
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -2264,7 +2354,7 @@ react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/react__WEB
   }
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__["Route"], {
   path: "*",
-  component: _components_pages_PageNotFound__WEBPACK_IMPORTED_MODULE_14__["default"],
+  component: _components_pages_PageNotFound__WEBPACK_IMPORTED_MODULE_13__["default"],
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
@@ -2394,5 +2484,5 @@ module.exports = __webpack_require__(/*! /var/www/html/test-digital/wp-content/t
 
 /***/ })
 
-},[[0,"runtime-main",0]]]);
+},[[0,"runtime-main",1]]]);
 //# sourceMappingURL=main.chunk.js.map

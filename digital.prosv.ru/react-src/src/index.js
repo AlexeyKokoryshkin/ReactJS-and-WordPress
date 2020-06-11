@@ -14,7 +14,7 @@ import ToUser from './components/pages/ToUser';
 import ToLibrarian from './components/pages/ToLibrarian';
 import ToDistributor from './components/pages/ToDistributor';
 import Faq from './components/pages/Faq';
-import DownloadApp from './components/pages/DownloadApp';
+//import DownloadApp from './components/pages/DownloadApp';
 
 import PageNotFound from './components/pages/PageNotFound';
 import PostPage from './components/componentsOfNews/PostPage';
@@ -28,7 +28,7 @@ ReactDom.render(<Router history={browserHistory}>
         <Route path="/test-digital/toLibrarian" component={ToLibrarian}/>
         <Route path="/test-digital/toDistributor" component={ToDistributor}/>
         <Route path="/test-digital/faq" component={Faq}/>
-        <Route path="/test-digital/downloadApp" component={DownloadApp}/>
+        {/* <Route path="/test-digital/downloadApp" component={DownloadApp}/> */}
         <Route path="/test-digital/:id" component={PostPage} />
         <Route path="*" component={PageNotFound}/>
     </Route>

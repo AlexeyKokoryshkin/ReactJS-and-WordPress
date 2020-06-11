@@ -23,9 +23,31 @@ select{
 	color: #848484;
 }
 
+nav {
+	padding-bottom: 0!important;
+}
+
 .breadcrumb-container, ol.breadcrumb{
 	background: #F3F3F3;
 	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.d-flex {
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+.dropdown {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	z-index: 99;
+	background: #F8F9FA;
+}
+
+.collapse:not(.show) {
+    display: contents!important;
 }
 
 .btn:focus {
