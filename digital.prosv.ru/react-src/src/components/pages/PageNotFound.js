@@ -5,12 +5,14 @@ class PageNotFound extends Component {
     render () {
         return (
             <>
-            <nav aria-label="breadcrumb">
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link to="/test-digital" className="b-navbar__home">{ this.props.brand || 'Главная' }</Link></li>
-                    <li className="breadcrumb-item active" aria-current="page"></li>
-                </ol>
-            </nav>
+            <div className="container">
+                <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item"><Link to="/test-digital" className="b-navbar__home">{ this.props.brand || 'Главная' }</Link></li>
+                        <li className="breadcrumb-item active" aria-current="page"></li>
+                    </ol>
+                </nav>
+            </div>
                 <h1>Страница не найдена!</h1>
                 <p>Error 404 =(</p>               
             </>

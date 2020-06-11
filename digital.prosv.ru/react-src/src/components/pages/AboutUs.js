@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import News from '../componentsOfNews/News';
+import Posts from '../componentsOfNews/Posts';
 
 class AboutUs extends Component {
     render () {
         return (
         <>
-            <nav aria-label="breadcrumb">
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link to="/test-digital" className="b-navbar__home">{ this.props.brand || 'Главная' }</Link></li>
-                    <li className="breadcrumb-item active" aria-current="page">Об ЭФУ</li>
-                </ol>
-            </nav>
+            <div className="container">
+                <nav aria-label="breadcrumb">
+                    <ol className="breadcrumb">
+                        <li className="breadcrumb-item"><Link to="/test-digital" className="b-navbar__home">{ this.props.brand || 'Главная' }</Link></li>
+                        <li className="breadcrumb-item active" aria-current="page">Об ЭФУ</li>
+                    </ol>
+                </nav>
+            </div>
                 
             <div className="content">
                 <div className="container-fluid px-0 about-app-top">
@@ -75,7 +77,7 @@ class AboutUs extends Component {
                         <div><a href="/buying-ur"><img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy_yur.png" alt=""/></a></div>
                     </div>
                 </div>
-        <News/>
+        <Posts/>
             </div>
         </>
         )

@@ -20,20 +20,22 @@ class ToUser extends Component {
       }
       render() {
         if (!this.state.post) return <div>Загрузка...</div>
-        return <div>
-          <h3>{this.state.post.title.rendered}</h3>
-          <div dangerouslySetInnerHTML={{ __html : this.state.post.content.rendered }}></div>
-        </div>
+        return (
+          <>
+             <div className="container">
+               <nav aria-label="breadcrumb">
+                  <ol className="breadcrumb">
+                      <li className="breadcrumb-item"><Link to="/test-digital" className="b-navbar__home">{ this.props.brand || 'Главная' }</Link></li>
+                      <li className="breadcrumb-item active" aria-current="page">Пользователю</li>
+                  </ol>
+              </nav>
+             </div>
+            {/* <h3>{this.state.post.title.rendered}</h3> */}
+            <div dangerouslySetInnerHTML={{ __html : this.state.post.content.rendered }}></div>
+          </>
+        ) 
       }
     }
   
 
 export default ToUser
-
-
-  /*  <nav aria-label="breadcrumb">
-                <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link to="/test-digital" className="b-navbar__home">{ this.props.brand || 'Главная' }</Link></li>
-                    <li className="breadcrumb-item active" aria-current="page">Пользователю</li>
-                </ol>
-            </nav> */
