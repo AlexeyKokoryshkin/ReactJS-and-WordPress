@@ -1,5 +1,6 @@
 <?php
-add_theme_support('post-thumbnails');
+add_theme_support('post-thumbnails'); // картинка записи для постов;
+
 
 /** Константы  */
 // include_once "functions-parts/fn-constants.php";

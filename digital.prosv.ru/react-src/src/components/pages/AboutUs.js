@@ -2,7 +2,26 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import Posts from '../componentsOfNews/Posts';
 
+const BLOG_API = `http://localhost/test-digital/`;
+
 class AboutUs extends Component {
+    constructor(props) {
+        super(props)
+        this.state = { // инициализируем состояние по-умолчанию
+          posts: []
+        };
+      }
+
+      componentWillMount () {
+        return fetch(BLOG_API + '/wp-json/wp/v2/posts') // делаем запрос к Wordpress API
+        .then((response) => response.json()) // получаем ответ в формате json
+        .then(posts => {
+          this.setState({
+            posts: posts, // обновляем состояние страницы
+          });
+        })
+      }
+
     render () {
         return (
         <>
@@ -89,7 +108,7 @@ class AboutUs extends Component {
                 <div className="b-newsBlock">
                     <Posts/>
                     <button type="button" className="btn btn-primary btn-allNews">
-                        <Link to={`/test-digital/allnews`}>Все новости</Link>
+                        <Link to={`/test-digital/allnews`}>Все новости <span className="badge badge-light">{this.state.posts.length}</span></Link>  
                     </button>
                 </div>
                 

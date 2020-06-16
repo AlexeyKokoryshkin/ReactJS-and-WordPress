@@ -14,34 +14,27 @@ class Posts extends Component {
       }
 
       componentWillMount () {
-        return fetch(BLOG_API + '/wp-json/wp/v2/posts') // делаем запрос к Wordpress API
+        return fetch(BLOG_API + '/wp-json/wp/v2/posts?per_page=4' ) // делаем запрос к Wordpress API и получаем только первые четыре записи
         .then((response) => response.json()) // получаем ответ в формате json
         .then(posts => {
           this.setState({
             posts: posts, // обновляем состояние страницы
-          });
+          })
         })
       }
 
       render() {
-        let rez = () => {
-         if (this.state.posts.length < 2) {
-           item.title.rendered
-            }  
-        }
         return (
           <div>
-            <ul>
-            {console.log("Длина массива - " + this.state.posts.length)};
-               
-               
-               
+            <ul> 
               {
                 this.state.posts.map(item => (
                   <li key={item.id}>
                     <Link to={`/test-digital/${item.id}`}>
-                        {item.title.rendered}
-                    </Link>
+                        <p>{item.title.rendered}</p>
+                        <div dangerouslySetInnerHTML={{ __html : item.excerpt.rendered }}></div>
+                        <p>{item.date}</p>
+                    </Link>                    
                   </li>
                 ))
               }
@@ -52,14 +45,3 @@ class Posts extends Component {
     }
 
 export default Posts
-
-/* {item.title.rendered} */
-
-/* let calc = () => {
-  for (let i = 0; i <= 100; i++) {
-    let rez = (i % 5 === 0) ? console.log('fiz') :
-                        (i % 3 === 0) ? console.log('baz') : console.log('fizbaz');
-  }
-}
-
-calc(); */
