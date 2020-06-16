@@ -73,11 +73,27 @@ class AboutUs extends Component {
                 </div>
                 <div className="container-fluid">
                     <div className="b-howToBuy">
-                        <div><a href="/buying"><img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy.png" alt=""/></a></div>
-                        <div><a href="/buying-ur"><img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy_yur.png" alt=""/></a></div>
+                        <div> 
+                            <Link to={`/test-digital/buying`}>
+                            <img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy.png" alt=""/>
+                            </Link>
+                        </div>
+                        <div> 
+                            <Link to={`/test-digital/buying-ur`}>
+                            <img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy_yur.png" alt=""/>
+                            </Link>
+                        </div>
                     </div>
                 </div>
-        <Posts/>
+
+                <div className="b-newsBlock">
+                    <Posts/>
+                    <button type="button" className="btn btn-primary btn-allNews">
+                        <Link to={`/test-digital/allnews`}>Все новости</Link>
+                    </button>
+                </div>
+                
+            
             </div>
         </>
         )

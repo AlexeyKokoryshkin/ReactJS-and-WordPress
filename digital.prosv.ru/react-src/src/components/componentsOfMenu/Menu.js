@@ -20,7 +20,7 @@ class Menu extends Component {
 
                    
                         { this.state.showModal && <MyModal handleModal={this.handleModal}/> }
-                        <button onClick={this.handleModal}> Скачать приложение </button>
+                        <button className="btn btn-outline-secondary btn-download" onClick={this.handleModal}> Скачать приложение </button>
                 
 
 

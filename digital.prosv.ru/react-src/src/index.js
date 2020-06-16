@@ -19,6 +19,11 @@ import Faq from './components/pages/Faq';
 import PageNotFound from './components/pages/PageNotFound';
 import PostPage from './components/componentsOfNews/PostPage';
 
+import Buying from './components/pages/Buying';
+import BuyingUr from './components/pages/BuyingUr';
+
+import AllNews from './components/pages/AllNews';
+
 
 ReactDom.render(<Router history={browserHistory}>
     <Route path="/test-digital" component={Layout}>
@@ -29,6 +34,10 @@ ReactDom.render(<Router history={browserHistory}>
         <Route path="/test-digital/toDistributor" component={ToDistributor}/>
         <Route path="/test-digital/faq" component={Faq}/>
         {/* <Route path="/test-digital/downloadApp" component={DownloadApp}/> */}
+        <Route path="/test-digital/buying" component={Buying} />
+        <Route path="/test-digital/buying-ur" component={BuyingUr} />
+        <Route path="/test-digital/allnews" component={AllNews} />
+        
         <Route path="/test-digital/:id" component={PostPage} />
         <Route path="*" component={PageNotFound}/>
     </Route>

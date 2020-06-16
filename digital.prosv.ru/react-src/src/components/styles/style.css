@@ -46,6 +46,15 @@ nav {
 	background: #F8F9FA;
 }
 
+.btn-allNews a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-download {
+	line-height: 15px;
+}
+
 .collapse:not(.show) {
     display: contents!important;
 }

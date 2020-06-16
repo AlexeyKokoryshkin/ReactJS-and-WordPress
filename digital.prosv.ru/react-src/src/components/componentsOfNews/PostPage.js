@@ -18,11 +18,19 @@ class PostPage extends Component {
       })
     }
     render() {
-      if (!this.state.post) return <div>Загрузка...</div>
-      return <div>
-        <h3>{this.state.post.title.rendered}</h3>
-        <div dangerouslySetInnerHTML={{ __html : this.state.post.content.rendered }}></div>
-      </div>
+      if (!this.state.post) return (
+        <div className="d-flex justify-content-center">
+            <div className="spinner-border text-primary" role="status">
+              <span className="sr-only">Loading...</span>
+            </div>
+        </div>
+      )
+      return (
+        <>
+          <h3>{this.state.post.title.rendered}</h3>
+          <div dangerouslySetInnerHTML={{ __html : this.state.post.content.rendered }}></div>
+        </>
+      )
     }
   }
 
