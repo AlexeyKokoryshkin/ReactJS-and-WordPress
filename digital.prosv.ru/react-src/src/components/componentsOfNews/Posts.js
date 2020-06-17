@@ -1,62 +1,6 @@
-/* import React, { Component } from 'react';
-const BLOG_API = `http://localhost/test-digital/`;
-let pathToAPI = BLOG_API + '/wp-json/api/auth';
-
-class Posts extends Component {
-  constructor(props) {
-    super(props)
-
-    this.state = { 
-      posts: []
-    };
-      
-  }
-
-  componentWillMount () {
-    return fetch(pathToAPI, {
-        method: 'POST',
-        body: JSON.stringify(posts),
-        headers: {
-            'content-type': 'application/json'
-        }
-        }).then((response) => {
-            return response.json();
-        }).then((posts) => {
-          this.setState({
-            posts: posts, 
-          })
-        })
-    }
-
-  render() {
-    return (
-      <>
-        <ul> 
-              {
-                this.state.posts.map(item => (
-                  <li key={item.id}>
-                    <Link to={`/test-digital/${item.id}`}>
-                        <p>{item.title.rendered}</p>
-                        <div dangerouslySetInnerHTML={{ __html : item.excerpt.rendered }}></div>
-                        <p>{item.date}</p>
-                    </Link>                    
-                  </li>
-                ))
-              }
-            </ul>
-      </>
-    )
-  }
-}
-
-export default Posts */
-
-
-
-
 import React, { Component } from 'react';
-//import Img from './Img';
 import { Link } from 'react-router';
+
 const BLOG_API = `http://localhost/test-digital/`;
 
 class Posts extends Component {
@@ -74,33 +18,31 @@ class Posts extends Component {
         .then((response) => response.json()) // получаем ответ в формате json
         .then(posts => {
           this.setState({
-            posts: posts, // обновляем состояние страницы
+            posts: posts.slice(1) // обновляем состояние страницы
           })
         })
       }
 
       render() {
         return (
-          <div>
-            <ul> 
+          <>
               {
                 this.state.posts.map(item => (
-                  <li key={item.id}>
-                    <Link to={`/test-digital/${item.id}`}>
-                        <img src={item.img} alt=""/>
-                        <p>{item.title}</p>
-                        <p>{item.description}</p>
+                  <div className="col-lg-6 news-preview-container" key={item.id}>
+                    <Link className="news-preview" to={`/test-digital/${item.id}`}>
+                        <div className="news-preview-content">
+                          <img className="news-preview-img" src={item.img} alt=""/>
+                          <h3 className="news-preview-title">{item.title}</h3>
+                          <div className="news-preview-text">{item.description}</div>
+                          <div className="news-preview-date">{item.date}</div>
+                        </div>
                     </Link>                    
-                  </li>
+                  </div>
                 ))
               }
-            </ul>
-          </div>
+          </>
         )
       }
     }
 
 export default Posts
-
-
-

@@ -105,14 +105,25 @@ class AboutUs extends Component {
                     </div>
                 </div>
 
-                <div className="b-newsBlock">
-                    <Posts/>
-                    <button type="button" className="btn btn-primary btn-allNews">
-                        <Link to={`/test-digital/allnews`}>Все новости <span className="badge badge-light">{this.state.posts.length}</span></Link>  
-                    </button>
+                <div className="container-fluid px-0 news">
+
+                    <div className="container-fluid px-0 row mx-auto my-auto news-top-title">
+                        <h2>Новости</h2>
+                    </div>
+                    <div className="container-fluid px-0">
+                        <div className="row">
+                             <Posts/>
+                        </div>
+                    </div>
+
+                    <div className="b-buttonAllNews_flexend">
+                        <button type="button" className="btn btn-primary">
+                            <Link to={`/test-digital/allnews`}>Все новости <span className="badge badge-light">{this.state.posts.length}</span></Link>  
+                        </button>
+                    </div>
+
                 </div>
-                
-            
+
             </div>
         </>
         )

@@ -45,7 +45,16 @@ nav {
 	background: #F8F9FA;
 }
 
-.btn-allNews a {
+.b-buttonAllNews_flexend {
+	display: flex;
+    justify-content: flex-end;
+}
+
+.b-buttonAllNews_flexend button {
+	margin: 15px 0 35px;
+}
+
+.b-buttonAllNews_flexend button a {
 	color: #fff;
 	text-decoration: none;
 }

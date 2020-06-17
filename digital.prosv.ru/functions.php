@@ -126,7 +126,7 @@ function getPosts($request) {
             $title = esc_html(get_the_title());
             $desc = get_the_excerpt();
             $id = get_the_ID();
-
+            $date = get_the_date();
 
         
             // Получаем ссылку на изображение (если оно есть)
@@ -145,7 +145,7 @@ function getPosts($request) {
                 "title" => $title,
                 "description" => $desc,
                 "img" => $imgUrl,
-                "tags" => $tags
+                "date" => $date
             );
 
             // Добавляем его в массив постов
@@ -159,3 +159,5 @@ function getPosts($request) {
     // Возвращаем объект ответа
     return $response;
 }
+
+/* --------------- */
