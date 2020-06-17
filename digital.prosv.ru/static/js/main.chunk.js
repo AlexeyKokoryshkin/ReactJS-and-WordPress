@@ -328,6 +328,60 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/es/index.js");
 var _jsxFileName = "/var/www/html/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/componentsOfNews/Posts.js";
 
+/* import React, { Component } from 'react';
+const BLOG_API = `http://localhost/test-digital/`;
+let pathToAPI = BLOG_API + '/wp-json/api/auth';
+
+class Posts extends Component {
+  constructor(props) {
+    super(props)
+
+    this.state = { 
+      posts: []
+    };
+      
+  }
+
+  componentWillMount () {
+    return fetch(pathToAPI, {
+        method: 'POST',
+        body: JSON.stringify(posts),
+        headers: {
+            'content-type': 'application/json'
+        }
+        }).then((response) => {
+            return response.json();
+        }).then((posts) => {
+          this.setState({
+            posts: posts, 
+          })
+        })
+    }
+
+  render() {
+    return (
+      <>
+        <ul> 
+              {
+                this.state.posts.map(item => (
+                  <li key={item.id}>
+                    <Link to={`/test-digital/${item.id}`}>
+                        <p>{item.title.rendered}</p>
+                        <div dangerouslySetInnerHTML={{ __html : item.excerpt.rendered }}></div>
+                        <p>{item.date}</p>
+                    </Link>                    
+                  </li>
+                ))
+              }
+            </ul>
+      </>
+    )
+  }
+}
+
+export default Posts */
+ //import Img from './Img';
+
 
 const BLOG_API = `http://localhost/test-digital/`;
 
@@ -341,7 +395,7 @@ class Posts extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   }
 
   componentWillMount() {
-    return fetch(BLOG_API + '/wp-json/wp/v2/posts?per_page=4') // делаем запрос к Wordpress API и получаем только первые четыре записи
+    return fetch(BLOG_API + '/wp-json/api/posts/') // делаем запрос к Wordpress API и получаем только первые четыре записи
     .then(response => response.json()) // получаем ответ в формате json
     .then(posts => {
       this.setState({
@@ -356,14 +410,14 @@ class Posts extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 84,
         columnNumber: 11
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29,
+        lineNumber: 85,
         columnNumber: 13
       }
     }, this.state.posts.map(item => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
@@ -371,7 +425,7 @@ class Posts extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32,
+        lineNumber: 88,
         columnNumber: 19
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -379,34 +433,33 @@ class Posts extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
+        lineNumber: 89,
         columnNumber: 21
       }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+      src: item.img,
+      alt: "",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
-        columnNumber: 25
-      }
-    }, item.title.rendered), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-      dangerouslySetInnerHTML: {
-        __html: item.excerpt.rendered
-      },
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
+        lineNumber: 90,
         columnNumber: 25
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
+        lineNumber: 91,
         columnNumber: 25
       }
-    }, item.date))))));
+    }, item.title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 92,
+        columnNumber: 25
+      }
+    }, item.description))))));
   }
 
 }
@@ -4703,5 +4756,5 @@ module.exports = __webpack_require__(/*! /var/www/html/test-digital/wp-content/t
 
 /***/ })
 
-},[[0,"runtime-main",0]]]);
+},[[0,"runtime-main",1]]]);
 //# sourceMappingURL=main.chunk.js.map

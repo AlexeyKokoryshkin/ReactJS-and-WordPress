@@ -1,7 +1,6 @@
 <?php
 add_theme_support('post-thumbnails'); // картинка записи для постов;
 
-
 /** Константы  */
 // include_once "functions-parts/fn-constants.php";
 
@@ -76,3 +75,87 @@ function change_post_object_label() {
     $labels->not_found_in_trash = 'Корзина пуста';
 }
 add_action( 'init', 'change_post_object_label' );
+
+
+
+
+//API вывода постов для ReactJS 
+
+// Энд-поинты приложения
+add_action('rest_api_init', function() {
+
+    // Маршрут получения постов
+    register_rest_route('api/', 'posts/', [
+        'methods'  => 'GET',
+        'callback' => 'getPosts',
+        'args' => array(
+            'id' => array(
+                'default' => $id
+            ),
+            'type' => array(
+                'default' => $type
+            ),
+            'counts' => array(
+                'default' => $counts
+            ),
+        ),
+    ]);
+
+});
+
+// Функция авторизации пользователя
+function getPosts($request) {
+
+    // Вытаскиваем в отдельные переменные ключи из запроса
+    $type = $request['type'];
+    $counts = $request['counts'];
+
+        // Массив постов
+        $posts = array();
+
+        // Формируем запрос с помощью WP_Query
+        $query = new WP_Query(array(
+            'post_type' =>  $type,
+            'posts_per_page' => $counts
+        ));
+
+        // Пройдемся по массиву
+        while ($query->have_posts()) : $query->the_post();
+
+            // Получаем заголовок и описание
+            $title = esc_html(get_the_title());
+            $desc = get_the_excerpt();
+            $id = get_the_ID();
+
+
+        
+            // Получаем ссылку на изображение (если оно есть)
+            if(has_post_thumbnail()) {
+                $thumb_id = get_post_thumbnail_id();
+                $thumb_cover_url = wp_get_attachment_image_src($thumb_id, full, true);
+                $imgUrl = $thumb_cover_url[0];
+            } else {
+                $imgUrl = 'null'; // Или можно указать ссылку на картинку-заглушку
+            }
+
+        
+            // Формируем объект поста
+            $post = array(
+                "id" => $id,
+                "title" => $title,
+                "description" => $desc,
+                "img" => $imgUrl,
+                "tags" => $tags
+            );
+
+            // Добавляем его в массив постов
+            array_push($posts, $post);
+
+        endwhile; wp_reset_postdata();
+
+        // Ответ - это массив постов
+        $response = $posts;    
+
+    // Возвращаем объект ответа
+    return $response;
+}
