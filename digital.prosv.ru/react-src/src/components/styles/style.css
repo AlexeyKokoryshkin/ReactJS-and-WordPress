@@ -97,7 +97,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 	padding-top: 35px;
 }
 .header-logo a {
-	background: url('../img/logo.svg') no-repeat 20px;
+	background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/logo.svg') no-repeat 20px;
 	padding: 36px 110px 35px;
 }
 .header-menu{
@@ -127,13 +127,13 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 	padding-top: 96px;
 	text-align: center;
 	color: #4D4D4D;
-	background: url('../img/user_icon.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/user_icon.png') no-repeat center 20px;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 }
 .menu-button-user:hover{
 	color: #466b9f;
-	background: url('../img/user_icon_active.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/user_icon_active.png') no-repeat center 20px;
         background-color: #f3f3f3;
 }
 
@@ -141,52 +141,52 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 	padding-top: 96px;
 	text-align: center;
 	color: #4D4D4D;
-	background: url('../img/teacher_icon.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/teacher_icon.png') no-repeat center 20px;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 }
 .menu-button-librarian:hover{
 	color: #466b9f;
-	background: url('../img/teacher_icon_active.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/teacher_icon_active.png') no-repeat center 20px;
         background-color: #f3f3f3;
 }
 .menu-button-distrib{
 	padding-top: 96px;
 	text-align: center;
 	color: #4D4D4D;
-	background: url('../img/distrib_icon.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/distrib_icon.png') no-repeat center 20px;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 } 
 .menu-button-distrib:hover{
 	color: #466b9f;
-	background: url('../img/distrib_icon_active.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/distrib_icon_active.png') no-repeat center 20px;
         background-color: #f3f3f3;
 }
 .menu-button-faq{
 	padding-top: 96px;
 	text-align: center;
 	color: #4D4D4D;
-	background: url('../img/faq_icon.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/faq_icon.png') no-repeat center 20px;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 }
 .menu-button-faq:hover{
 	color: #466b9f;
-	background: url('../img/faq_icon_active.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/faq_icon_active.png') no-repeat center 20px;
         background-color: #f3f3f3;
 }
 .menu-button-video{
 	padding-top: 96px;
 	text-align: center;
 	color: #4D4D4D;
-	background: url('../img/video_icon.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/video_icon.png') no-repeat center 20px;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 }
 .menu-button-video:hover{
 	color: #466b9f;
-	background: url('../img/video_icon_active.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/video_icon_active.png') no-repeat center 20px;
         background-color: #f3f3f3;
 }
 
@@ -194,13 +194,13 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 	padding-top: 96px;
 	text-align: center;
 	color: #4D4D4D;
-	background: url('../img/about_icon.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/about_icon.png') no-repeat center 20px;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 }
 .menu-button-about:hover{
 	color: #466b9f;
-	background: url('../img/about_icon_active.png') no-repeat center 20px;
+	background: url('/themes/digital.prosv.ru/img/about_icon_active.png') no-repeat center 20px;
         background-color: #f3f3f3;
 }
 
@@ -208,7 +208,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 	padding-top: 96px!important;
 	text-align: center!important;
 	color: #4D4D4D!important;
-	background: url('../img/download_icon.png') no-repeat center 20px!important;
+	background: url('/themes/digital.prosv.ru/img/download_icon.png') no-repeat center 20px!important;
         -webkit-transition-duration: 0.3s;
         transition-duration: 0.3s;
 }
@@ -219,12 +219,12 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 }
 .submenu-group-block a.btn:hover, .submenu-group-block a.btn:active{
     	color: #466b9f!important;
-	background: url('../img/download_icon_active.png') no-repeat center 20px!important;
+	background: url('/themes/digital.prosv.ru/img/download_icon_active.png') no-repeat center 20px!important;
         background-color: #f3f3f3!important;
 }
 .menu-button-download:hover, .menu-button-download:active{
 	color: #466b9f!important;
-	background: url('../img/download_icon_active.png') no-repeat center 20px!important;
+	background: url('/themes/digital.prosv.ru/img/download_icon_active.png') no-repeat center 20px!important;
         background-color: #f3f3f3!important;
 }
 
@@ -255,7 +255,7 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
     border: none;
     outline: none;
     text-indent:-9999px;
-    background: url('../img/icon_top.png') no-repeat;
+    background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/icon_top.png') no-repeat;
     border-radius: 50px;
 }
 
@@ -313,22 +313,22 @@ box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 .app-requirement-icon{
 	width: 80px;
 	min-height: 100px;
-	background: url('../img/requirement.png') no-repeat center;
+	background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/requirement.png') no-repeat center;
 }
 .app-platforms-icon{
 	width: 80px;
 	min-height: 95px;
-	background: url('../img/platform.png') no-repeat center;
+	background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/platform.png') no-repeat center;
 }
 .app-wifi-icon{
 	width: 80px;
 	min-height: 100px;
-	background: url('../img/wifi.png') no-repeat center;
+	background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/wifi.png') no-repeat center;
 }
 .app-buying-icon{
 	width: 80px;
 	min-height: 100px;
-	background: url('../img/ebook.png') no-repeat center;
+	background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/ebook.png') no-repeat center;
 }
 .about-app-requirement, .about-app-platforms, .about-app-wifi, .about-app-buying{
 	margin-top: 15px;
@@ -841,7 +841,7 @@ h3.main-content-title{
 	margin-top: 15px;
 	padding-left: 35px;
 	padding-bottom: 5px;
-	background: url('../img/mail_icon.png') no-repeat left -0.5px;
+	background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/mail_icon.png') no-repeat left -0.5px;
 }
 .contact-info-mail > a{
 	color: #fff;
@@ -858,7 +858,7 @@ h3.main-content-title{
 .contact-info-telephone{
 	margin-bottom: 30px;
 	padding-left: 35px;
-	background: url('../img/call_icon.png') no-repeat left;
+	background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/call_icon.png') no-repeat left;
 }.footer-company-info, .footer-sitemap{
 	margin-left: 10px;
 	font-size: 14px;
@@ -959,32 +959,32 @@ h3.main-content-title{
 .free-download-icon{
         width: 100%;
         height: 180px;
-        background: url('../img/ebook_white.png') no-repeat center;
+        background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/ebook_white.png') no-repeat center;
 }
 .english-spotlight-icon{
         width: 100%;
         height: 180px;
-        background: url('../img/graduation_icon.png') no-repeat center;
+        background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/graduation_icon.png') no-repeat center;
 }
 .webinars-icon{
         width: 100%;
         height: 200px;
-        background: url('../img/monitor_icon.png') no-repeat center;
+        background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/monitor_icon.png') no-repeat center;
 }
 .olimpium-icon{
         width: 100%;
         height: 200px;
-        background: url('../img/olimpium_icon.png') no-repeat center;
+        background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/olimpium_icon.png') no-repeat center;
 }
 .assets-icon{
         width: 100%;
         height: 200px;
-        background: url('../img/download_pc_icon.png') no-repeat center;
+        background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/download_pc_icon.png') no-repeat center;
 }
 .shop-link-icon{
         width: 100%;
         height: 200px;
-        background: url('../img/basket_icon.png') no-repeat center;
+        background: url('/test-digital/wp-content/themes/digital.prosv.ru/img/basket_icon.png') no-repeat center;
 }
 .main-page-main-link{
         display: block;

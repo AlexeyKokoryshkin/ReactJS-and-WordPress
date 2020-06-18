@@ -53,8 +53,8 @@
 <meta name="description" content="Сайт с обучающающими материалами по работе с электронными учебниками Издательства &laquo;Просвещение&raquo;.">
 <title>Цифровые технологии для современного образования &mdash; Группа компаний &laquo;Просвещение&raquo;</title>
 
-<link rel="icon" type="image/ico" href="<?= get_template_directory_uri() ?>/react-src/src/components/img/digital.ico" />
-<link rel="shortcut icon" type="image/x-icon" href="<?= get_template_directory_uri() ?>/react-src/src/components/img/digital.ico" />
+<link rel="icon" type="image/ico" href="<?= get_template_directory_uri() ?>/img/digital.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="<?= get_template_directory_uri() ?>/img/digital.ico" />
 <title><?=$current_item->title?></title>
 
 
@@ -84,7 +84,7 @@
 <noscript><div><img src="https://mc.yandex.ru/watch/56831812" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
-<link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/0.chunk.css?da4e17a0243aedd62d7b" rel="stylesheet"><link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/main.chunk.css?da4e17a0243aedd62d7b" rel="stylesheet"></head>
+<link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/1.chunk.css?6335f3d2602d88a2991c" rel="stylesheet"><link href="/test-digital/wp-content/themes/digital.prosv.ru/static/css/main.chunk.css?6335f3d2602d88a2991c" rel="stylesheet"></head>
     <body>
     <noscript>
         You need to enable JavaScript to run this app.
@@ -94,5 +94,5 @@
         To begin the development, run `npm run wpstart` or `yarn wpstart`.
         To create a production bundle, use `npm run wpbuild` or `yarn wpbuild`.
     -->
-    <script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/bundle.js?da4e17a0243aedd62d7b"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/0.chunk.js?da4e17a0243aedd62d7b"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/main.chunk.js?da4e17a0243aedd62d7b"></script></body>
+    <script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/bundle.js?6335f3d2602d88a2991c"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/1.chunk.js?6335f3d2602d88a2991c"></script><script src="/test-digital/wp-content/themes/digital.prosv.ru/static/js/main.chunk.js?6335f3d2602d88a2991c"></script></body>
 </html>

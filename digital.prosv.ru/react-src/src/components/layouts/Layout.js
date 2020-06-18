@@ -61,10 +61,10 @@ class Layout extends Component {
                         <div className="row footer-top">
                             <div className="col-md-8 footer-title"><h2>Горячая линия Издательства "Просвещение"</h2></div>
                             <div className="col-md-2 my-auto footer-google-play-button">
-                                <a href=""><img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/googleplay_icon.png" alt=""/></a>
+                                <a href=""><img src="/test-digital/wp-content/themes/digital.prosv.ru/img/googleplay_icon.png" alt=""/></a>
                             </div>
                             <div className="col-md-2 my-auto footer-app-store-button">
-                                <a href=""><img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/appstore_icon.png" alt=""/></a>
+                                <a href=""><img src="/test-digital/wp-content/themes/digital.prosv.ru/img/appstore_icon.png" alt=""/></a>
                             </div>
                         </div>
                         <div className="footer-bot">

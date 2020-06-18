@@ -46,8 +46,8 @@
 <meta name="description" content="Сайт с обучающающими материалами по работе с электронными учебниками Издательства &laquo;Просвещение&raquo;.">
 <title>Цифровые технологии для современного образования &mdash; Группа компаний &laquo;Просвещение&raquo;</title>
 
-<link rel="icon" type="image/ico" href="<?= get_template_directory_uri() ?>/react-src/src/components/img/digital.ico" />
-<link rel="shortcut icon" type="image/x-icon" href="<?= get_template_directory_uri() ?>/react-src/src/components/img/digital.ico" />
+<link rel="icon" type="image/ico" href="<?= get_template_directory_uri() ?>/img/digital.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="<?= get_template_directory_uri() ?>/img/digital.ico" />
 <title><?=$current_item->title?></title>
 
 

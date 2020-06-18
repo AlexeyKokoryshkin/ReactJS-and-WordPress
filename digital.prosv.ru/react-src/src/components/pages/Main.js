@@ -9,7 +9,7 @@ class Main extends Component {
 	 	<div className="container-fluid row">
 	 		<div className="col-md-6 px-0 my-auto main-page-text"><h2>Цифровые ресурсы и сервисы для школы</h2><p>Группа компаний «Просвещение», поддерживая рекомендации Минпросвещения РФ о переводе образовательного процесса в дистанционную форму, открывает <strong>свободный доступ к электронным формам учебников и образовательным сервисам</strong> на платформе «<a href="https://media.prosv.ru/" target="blank">Медиатека</a> «Просвещения»*. Также организована горячая линия методической помощи для учителей и школ <a href="mailto:vopros@prosv.ru">vopros@prosv.ru</a>.</p></div>
 	 		<div className="col-md-6 my-auto">
-	 			<img className="p-3" src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/efu.png" alt=""/>
+	 			<img className="p-3" src="/test-digital/wp-content/themes/digital.prosv.ru/img/efu.png" alt=""/>
 	 		</div>
 	 	</div>
 	 </div>
@@ -19,21 +19,21 @@ class Main extends Component {
 	 			<div className="container">
                                     <div className="free-download-icon"></div>
                                     <a href="https://media.prosv.ru/" target="_blank" className="main-page-main-link">Бесплатный доступ к ЭФУ на платформе «Медиатека «Просвещения»</a>
-                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/Просвещение_Медиатека.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
+                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/instructions/Просвещение_Медиатека.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
 	 			</div>
 	 		</div>
                         <div className="col-lg-4 text-center main-page-english-spotlight">
 	 			<div className="container">
                                     <div className="english-spotlight-icon"></div>
                                     <a href="https://edu.skyeng.ru/" target="_blank" className="main-page-main-link"> Цифровая образовательная среда Skyes School.<br/>Английский язык</a>
-                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/skyes_school_skyeng.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
+                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/instructions/skyes_school_skyeng.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
 	 			</div>
 	 		</div>
                         <div className="col-lg-4 text-center main-page-webinars">
 	 			<div className="container">
                                     <div className="webinars-icon"></div>
                                     <a href="https://prosv.ru/webinars" target="_blank" className="main-page-main-link">Вебинары от издательства "Просвещение"</a>
-                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/Просвещение_вебинары_инструкция.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
+                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/instructions/Просвещение_вебинары_инструкция.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
 	 			</div>
 	 		</div>
 	 	</div>
@@ -50,7 +50,7 @@ class Main extends Component {
 	 			<div className="container">
                                     <div className="assets-icon"></div>
                                     <a href="https://catalog.prosv.ru/category/14" target="_blank" className="main-page-main-link">Рабочие программы и методические пособия </a>
-                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/Просвещение_Рабочие_программы_инструкция.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
+                                    <a href="/test-digital/wp-content/themes/digital.prosv.ru/instructions/Просвещение_Рабочие_программы_инструкция.pdf" target="_blank" className="main-page-main-link download-instructions-link">Скачать инструкцию</a>
 	 			</div>
 	 		</div>
                         <div className="col-lg-4 text-center main-page-shop-link">

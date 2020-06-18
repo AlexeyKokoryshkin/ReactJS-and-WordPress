@@ -39,7 +39,7 @@ class AboutUs extends Component {
                     <div className="container-fluid row">
                         <div className="col-md-6 px-0 my-auto about-app-text"><h2>Что такое электронная форма учебника?</h2><p>Электронный учебник – удобное решение для учителей и учеников, которое обеспечивает доступ к образовательному контенту в нужное время с помощью приложения для компьютеров и планшетов. Дети могут заменить тяжёлый рюкзак на компактное устройство, которое содержит все необходимые учебники.</p></div>
                         <div className="col-md-6 my-auto">
-                            <img className="p-3" src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/efu.png" alt=""/>
+                            <img className="p-3" src="/test-digital/wp-content/themes/digital.prosv.ru/img/efu.png" alt=""/>
                         </div>
                     </div>
                 </div>
@@ -94,12 +94,12 @@ class AboutUs extends Component {
                     <div className="b-howToBuy">
                         <div> 
                             <Link to={`/test-digital/buying`}>
-                            <img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy.png" alt=""/>
+                            <img src="/test-digital/wp-content/themes/digital.prosv.ru/img/howtobuy.png" alt=""/>
                             </Link>
                         </div>
                         <div> 
                             <Link to={`/test-digital/buying-ur`}>
-                            <img src="/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy_yur.png" alt=""/>
+                            <img src="/test-digital/wp-content/themes/digital.prosv.ru/img/howtobuy_yur.png" alt=""/>
                             </Link>
                         </div>
                     </div>

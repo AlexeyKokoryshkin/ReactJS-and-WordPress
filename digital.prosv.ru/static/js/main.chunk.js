@@ -66,7 +66,7 @@ class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 21,
         columnNumber: 51
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
@@ -75,7 +75,7 @@ class Menu extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 22,
         columnNumber: 25
       }
     }, " \u0421\u043A\u0430\u0447\u0430\u0442\u044C \u043F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u0438\u0435 "))));
@@ -92,7 +92,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 36,
         columnNumber: 13
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -100,7 +100,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 37,
         columnNumber: 17
       }
     }, "Windows"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -111,7 +111,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 38,
         columnNumber: 17
       }
     }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434  Windows 7 (\u0443\u043D\u0438\u0432\u0435\u0440\u0441\u0430\u043B\u044C\u043D\u0430\u044F)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -122,7 +122,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 39,
         columnNumber: 17
       }
     }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434 Windows 8.1 \u0438 \u0432\u044B\u0448\u0435"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -130,7 +130,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 60,
+        lineNumber: 40,
         columnNumber: 17
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -138,7 +138,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 41,
         columnNumber: 17
       }
     }, "Android-\u043F\u043B\u0430\u043D\u0448\u0435\u0442\u044B \u0438 \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u044B"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -149,7 +149,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 62,
+        lineNumber: 42,
         columnNumber: 17
       }
     }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434 Android 4.4 \u0438 \u0432\u044B\u0448\u0435"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -157,7 +157,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 63,
+        lineNumber: 43,
         columnNumber: 17
       }
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -165,7 +165,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 64,
+        lineNumber: 44,
         columnNumber: 17
       }
     }, "IPad"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -176,7 +176,7 @@ class MyModal extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65,
+        lineNumber: 45,
         columnNumber: 17
       }
     }, "\u0412\u0435\u0440\u0441\u0438\u044F \u043F\u043E\u0434 iOS 9 \u0438 \u0432\u044B\u0448\u0435"));
@@ -906,7 +906,7 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 33
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/googleplay_icon.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/img/googleplay_icon.png",
       alt: "",
       __self: this,
       __source: {
@@ -931,7 +931,7 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 33
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/appstore_icon.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/img/appstore_icon.png",
       alt: "",
       __self: this,
       __source: {
@@ -1175,7 +1175,7 @@ class AboutUs extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       className: "p-3",
-      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/efu.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/img/efu.png",
       alt: "",
       __self: this,
       __source: {
@@ -1476,7 +1476,7 @@ class AboutUs extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 29
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/img/howtobuy.png",
       alt: "",
       __self: this,
       __source: {
@@ -1500,7 +1500,7 @@ class AboutUs extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 29
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/howtobuy_yur.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/img/howtobuy_yur.png",
       alt: "",
       __self: this,
       __source: {
@@ -3927,7 +3927,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
       className: "p-3",
-      src: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/img/efu.png",
+      src: "/test-digital/wp-content/themes/digital.prosv.ru/img/efu.png",
       alt: "",
       __self: this,
       __source: {
@@ -3986,7 +3986,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 37
       }
     }, "\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0439 \u0434\u043E\u0441\u0442\u0443\u043F \u043A \u042D\u0424\u0423 \u043D\u0430 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u0435 \xAB\u041C\u0435\u0434\u0438\u0430\u0442\u0435\u043A\u0430 \xAB\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u044F\xBB"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435_\u041C\u0435\u0434\u0438\u0430\u0442\u0435\u043A\u0430.pdf",
+      href: "/test-digital/wp-content/themes/digital.prosv.ru/instructions/\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435_\u041C\u0435\u0434\u0438\u0430\u0442\u0435\u043A\u0430.pdf",
       target: "_blank",
       className: "main-page-main-link download-instructions-link",
       __self: this,
@@ -4037,7 +4037,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 163
       }
     }), "\u0410\u043D\u0433\u043B\u0438\u0439\u0441\u043A\u0438\u0439 \u044F\u0437\u044B\u043A"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/skyes_school_skyeng.pdf",
+      href: "/test-digital/wp-content/themes/digital.prosv.ru/instructions/skyes_school_skyeng.pdf",
       target: "_blank",
       className: "main-page-main-link download-instructions-link",
       __self: this,
@@ -4081,7 +4081,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 37
       }
     }, "\u0412\u0435\u0431\u0438\u043D\u0430\u0440\u044B \u043E\u0442 \u0438\u0437\u0434\u0430\u0442\u0435\u043B\u044C\u0441\u0442\u0432\u0430 \"\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435\""), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435_\u0432\u0435\u0431\u0438\u043D\u0430\u0440\u044B_\u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044F.pdf",
+      href: "/test-digital/wp-content/themes/digital.prosv.ru/instructions/\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435_\u0432\u0435\u0431\u0438\u043D\u0430\u0440\u044B_\u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044F.pdf",
       target: "_blank",
       className: "main-page-main-link download-instructions-link",
       __self: this,
@@ -4175,7 +4175,7 @@ class Main extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 37
       }
     }, "\u0420\u0430\u0431\u043E\u0447\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B \u0438 \u043C\u0435\u0442\u043E\u0434\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u043F\u043E\u0441\u043E\u0431\u0438\u044F "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-      href: "/test-digital/wp-content/themes/digital.prosv.ru/react-src/src/components/instructions/\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435_\u0420\u0430\u0431\u043E\u0447\u0438\u0435_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B_\u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044F.pdf",
+      href: "/test-digital/wp-content/themes/digital.prosv.ru/instructions/\u041F\u0440\u043E\u0441\u0432\u0435\u0449\u0435\u043D\u0438\u0435_\u0420\u0430\u0431\u043E\u0447\u0438\u0435_\u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B_\u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u044F.pdf",
       target: "_blank",
       className: "main-page-main-link download-instructions-link",
       __self: this,
@@ -5021,5 +5021,5 @@ module.exports = __webpack_require__(/*! /var/www/html/test-digital/wp-content/t
 
 /***/ })
 
-},[[0,"runtime-main",0]]]);
+},[[0,"runtime-main",1]]]);
 //# sourceMappingURL=main.chunk.js.map
