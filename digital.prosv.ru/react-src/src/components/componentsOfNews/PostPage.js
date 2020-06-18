@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
+import SidebarNews from './SidebarNews';
+import * as moment  from 'moment';
 
 const BLOG_API = `http://localhost/test-digital/`;
 
@@ -33,7 +35,7 @@ class PostPage extends Component {
                 <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
                     <li className="breadcrumb-item"><Link to="/test-digital" className="b-navbar__home">{ this.props.brand || 'Главная' }</Link></li>
-                        <li className="breadcrumb-item"><Link to="/test-digital/aboutUs" className="b-navbar__home">{ 'Об ЭФУ' }</Link></li>
+                        <li className="breadcrumb-item"><Link to="/test-digital/allnews" className="b-navbar__home">{ 'Все новости' }</Link></li>
                         <li className="breadcrumb-item active" aria-current="page">{this.state.post.title.rendered}</li>
                     </ol>
                 </nav>
@@ -46,11 +48,18 @@ class PostPage extends Component {
                 <div className="col-md-9">
                   <div className="news-main-container">
                     <div className="news-header">
-                      <div className="news-date">Вывод даты</div>
+                      <div className="news-date">{moment(this.state.post.date).format("D.MM.Y")}</div>
                     </div>
                     <div className="news-text" dangerouslySetInnerHTML={{ __html : this.state.post.content.rendered }}></div>
                     </div>       
-                       </div>
+                </div>
+                <div className="col-md-3">
+                  <div className="sidebar-news">
+                    <div className="sidebar-news-preview">
+                      <SidebarNews/>
+                    </div>
+                  </div>
+                </div>
                   </div>
                 </div>
               </div>

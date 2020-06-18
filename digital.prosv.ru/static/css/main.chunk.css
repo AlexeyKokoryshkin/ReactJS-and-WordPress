@@ -63,6 +63,14 @@ nav {
 	line-height: 15px;
 }
 
+.all-news-container {
+	margin-bottom: 30px;
+}
+
+.all-news-container:last-child {
+	margin-bottom: 70px;
+}
+
 .collapse:not(.show) {
     display: contents!important;
 }
